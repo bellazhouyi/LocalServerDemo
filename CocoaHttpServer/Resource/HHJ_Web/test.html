@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+            <title>Index</title>
+            <script type="text/javascript" charset="uf-8" src="jquery-1.11.3.min.js"></script>
+            <script>
+                $(function() {
+                  $('#send').click(function() {
+                                   var value1 = $('#value1').val();
+                                   var value2 = $('#value2').val();
+                                   var url = "receive.html?value1=" + value1 + "&value2=" + value2;
+                                   url=encodeURI(url);   //对URL的地址进行encodeURI编码，实际上只有中文的部分被修改编码
+                                   window.location.href=url;
+                                   });
+                  });
+                </script>
+            </head>
+    <body>
+        <form action="post.html" method="post">
+        <div>
+            <div>
+                <span>value1:&nbsp;</span><input type="text" id="value1" />
+            </div>
+            <div>
+                <span>value2:&nbsp;</span><input type="text" id="value2" />
+            </div>
+            <div>
+                <button id="send">发送</button>
+            </div>
+        </div>
+        </form>
+    </body>
+</html>
