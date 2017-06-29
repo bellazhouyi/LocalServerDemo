@@ -8,6 +8,9 @@
 
 #import "HTTPConnection.h"
 
+/*
+ * 响应
+ */
 @interface ServerConnection : HTTPConnection
 
 @end

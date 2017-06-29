@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+/*
+ * 服务器的开启
+ */
 @interface StartServer : NSObject
 
 + (instancetype)sharedStartServer;

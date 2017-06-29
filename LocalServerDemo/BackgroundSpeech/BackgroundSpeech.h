@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-
+/*
+ * 音频播放
+ */
 @interface BackgroundSpeech : NSObject
 
 

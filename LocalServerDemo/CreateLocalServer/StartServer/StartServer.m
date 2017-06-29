@@ -9,7 +9,7 @@
 ///本地服务器保存地址,这个一定得是真实目录，蓝色文件夹。
 #define LOCAL_SERVER_PATH [[NSBundle mainBundle] pathForResource:@"LocalServer" ofType:nil]
 ///服务器端口
-#define LOCAL_SERVER_PORT 28788
+#define LOCAL_SERVER_PORT 24680
 
 #import "StartServer.h"
 

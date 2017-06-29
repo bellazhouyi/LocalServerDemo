@@ -41,21 +41,14 @@
 		363406EB1F00F70100D02790 /* HTTPFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 363406C21F00F70100D02790 /* HTTPFileResponse.m */; };
 		363406EC1F00F70100D02790 /* HTTPRedirectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 363406C41F00F70100D02790 /* HTTPRedirectResponse.m */; };
 		363406ED1F00F70100D02790 /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 363406C61F00F70100D02790 /* WebSocket.m */; };
-		363406EE1F00F70100D02790 /* app_login_status.html in Resources */ = {isa = PBXBuildFile; fileRef = 363406C91F00F70100D02790 /* app_login_status.html */; };
-		363406EF1F00F70100D02790 /* app_share.html in Resources */ = {isa = PBXBuildFile; fileRef = 363406CA1F00F70100D02790 /* app_share.html */; };
-		363406F01F00F70100D02790 /* apple-app-site-association in Resources */ = {isa = PBXBuildFile; fileRef = 363406CB1F00F70100D02790 /* apple-app-site-association */; };
-		363406F11F00F70100D02790 /* forward.html in Resources */ = {isa = PBXBuildFile; fileRef = 363406CC1F00F70100D02790 /* forward.html */; };
-		363406F21F00F70100D02790 /* forwardSuccess.html in Resources */ = {isa = PBXBuildFile; fileRef = 363406CD1F00F70100D02790 /* forwardSuccess.html */; };
-		363406F31F00F70100D02790 /* hhj_udid.mobileconfig in Resources */ = {isa = PBXBuildFile; fileRef = 363406CE1F00F70100D02790 /* hhj_udid.mobileconfig */; };
-		363406F41F00F70100D02790 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 363406CF1F00F70100D02790 /* index.html */; };
-		363406F51F00F70100D02790 /* receive.html in Resources */ = {isa = PBXBuildFile; fileRef = 363406D01F00F70100D02790 /* receive.html */; };
-		363406F61F00F70100D02790 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 363406D11F00F70100D02790 /* test.html */; };
 		363406FE1F00F8BB00D02790 /* StartServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 363406FD1F00F8BB00D02790 /* StartServer.m */; };
 		363407011F00F8CD00D02790 /* ServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 363407001F00F8CD00D02790 /* ServerConnection.m */; };
 		3634070A1F00FB5E00D02790 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 363407091F00FB5E00D02790 /* Config.m */; };
 		3634070D1F0106BC00D02790 /* HandleServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3634070C1F0106BC00D02790 /* HandleServerResponse.m */; };
 		36614C881F04D11200C7249D /* Dizzy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 36614C861F04D11200C7249D /* Dizzy.mp3 */; };
 		36614C891F04D11200C7249D /* Shane Filan - Beautiful In White (Demo).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 36614C871F04D11200C7249D /* Shane Filan - Beautiful In White (Demo).mp3 */; };
+		366B7B461F04DE3B00B3FD7A /* LocalServerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B7B451F04DE3B00B3FD7A /* LocalServerConfig.m */; };
+		366B7B491F04E3D400B3FD7A /* HandleServerPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B7B481F04E3D400B3FD7A /* HandleServerPath.m */; };
 		3686C6731F0228B300D074F5 /* LocalServer in Resources */ = {isa = PBXBuildFile; fileRef = 3686C6721F0228B300D074F5 /* LocalServer */; };
 		3686C6771F022B0C00D074F5 /* BackgroundSpeech.m in Sources */ = {isa = PBXBuildFile; fileRef = 3686C6761F022B0C00D074F5 /* BackgroundSpeech.m */; };
 /* End PBXBuildFile section */
@@ -126,15 +119,6 @@
 		363406C41F00F70100D02790 /* HTTPRedirectResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRedirectResponse.m; sourceTree = "<group>"; };
 		363406C51F00F70100D02790 /* WebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocket.h; sourceTree = "<group>"; };
 		363406C61F00F70100D02790 /* WebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebSocket.m; sourceTree = "<group>"; };
-		363406C91F00F70100D02790 /* app_login_status.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = app_login_status.html; sourceTree = "<group>"; };
-		363406CA1F00F70100D02790 /* app_share.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = app_share.html; sourceTree = "<group>"; };
-		363406CB1F00F70100D02790 /* apple-app-site-association */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "apple-app-site-association"; sourceTree = "<group>"; };
-		363406CC1F00F70100D02790 /* forward.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = forward.html; sourceTree = "<group>"; };
-		363406CD1F00F70100D02790 /* forwardSuccess.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = forwardSuccess.html; sourceTree = "<group>"; };
-		363406CE1F00F70100D02790 /* hhj_udid.mobileconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hhj_udid.mobileconfig; sourceTree = "<group>"; };
-		363406CF1F00F70100D02790 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		363406D01F00F70100D02790 /* receive.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = receive.html; sourceTree = "<group>"; };
-		363406D11F00F70100D02790 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
 		363406FC1F00F8BB00D02790 /* StartServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartServer.h; sourceTree = "<group>"; };
 		363406FD1F00F8BB00D02790 /* StartServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartServer.m; sourceTree = "<group>"; };
 		363406FF1F00F8CD00D02790 /* ServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerConnection.h; sourceTree = "<group>"; };
@@ -145,6 +129,10 @@
 		3634070C1F0106BC00D02790 /* HandleServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandleServerResponse.m; sourceTree = "<group>"; };
 		36614C861F04D11200C7249D /* Dizzy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dizzy.mp3; sourceTree = "<group>"; };
 		36614C871F04D11200C7249D /* Shane Filan - Beautiful In White (Demo).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shane Filan - Beautiful In White (Demo).mp3"; sourceTree = "<group>"; };
+		366B7B441F04DE3B00B3FD7A /* LocalServerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalServerConfig.h; sourceTree = "<group>"; };
+		366B7B451F04DE3B00B3FD7A /* LocalServerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalServerConfig.m; sourceTree = "<group>"; };
+		366B7B471F04E3D400B3FD7A /* HandleServerPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandleServerPath.h; sourceTree = "<group>"; };
+		366B7B481F04E3D400B3FD7A /* HandleServerPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandleServerPath.m; sourceTree = "<group>"; };
 		3686C6721F0228B300D074F5 /* LocalServer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LocalServer; sourceTree = "<group>"; };
 		3686C6751F022B0C00D074F5 /* BackgroundSpeech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundSpeech.h; sourceTree = "<group>"; };
 		3686C6761F022B0C00D074F5 /* BackgroundSpeech.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundSpeech.m; sourceTree = "<group>"; };
@@ -212,7 +200,6 @@
 				363406891F00F70100D02790 /* CocoaAsyncSocket */,
 				3634068D1F00F70100D02790 /* CocoaLumberjack */,
 				3634069F1F00F70100D02790 /* Core */,
-				363406C71F00F70100D02790 /* Resource */,
 			);
 			path = CocoaHttpServer;
 			sourceTree = "<group>";
@@ -325,33 +312,10 @@
 			path = Responses;
 			sourceTree = "<group>";
 		};
-		363406C71F00F70100D02790 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				363406C81F00F70100D02790 /* HHJ_Web */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		363406C81F00F70100D02790 /* HHJ_Web */ = {
-			isa = PBXGroup;
-			children = (
-				363406C91F00F70100D02790 /* app_login_status.html */,
-				363406CA1F00F70100D02790 /* app_share.html */,
-				363406CB1F00F70100D02790 /* apple-app-site-association */,
-				363406CC1F00F70100D02790 /* forward.html */,
-				363406CD1F00F70100D02790 /* forwardSuccess.html */,
-				363406CE1F00F70100D02790 /* hhj_udid.mobileconfig */,
-				363406CF1F00F70100D02790 /* index.html */,
-				363406D01F00F70100D02790 /* receive.html */,
-				363406D11F00F70100D02790 /* test.html */,
-			);
-			path = HHJ_Web;
-			sourceTree = "<group>";
-		};
 		363406F71F00F84A00D02790 /* CreateLocalServer */ = {
 			isa = PBXGroup;
 			children = (
+				366B7B431F04DE2500B3FD7A /* ServerConfig */,
 				363407021F00F96B00D02790 /* Source */,
 				363406FA1F00F8B000D02790 /* ServerConnection */,
 				363406FB1F00F8B000D02790 /* StartServer */,
@@ -366,6 +330,8 @@
 				363407001F00F8CD00D02790 /* ServerConnection.m */,
 				3634070B1F0106BC00D02790 /* HandleServerResponse.h */,
 				3634070C1F0106BC00D02790 /* HandleServerResponse.m */,
+				366B7B471F04E3D400B3FD7A /* HandleServerPath.h */,
+				366B7B481F04E3D400B3FD7A /* HandleServerPath.m */,
 			);
 			path = ServerConnection;
 			sourceTree = "<group>";
@@ -403,6 +369,15 @@
 				36614C871F04D11200C7249D /* Shane Filan - Beautiful In White (Demo).mp3 */,
 			);
 			path = Music;
+			sourceTree = "<group>";
+		};
+		366B7B431F04DE2500B3FD7A /* ServerConfig */ = {
+			isa = PBXGroup;
+			children = (
+				366B7B441F04DE3B00B3FD7A /* LocalServerConfig.h */,
+				366B7B451F04DE3B00B3FD7A /* LocalServerConfig.m */,
+			);
+			path = ServerConfig;
 			sourceTree = "<group>";
 		};
 		3686C6741F022AF900D074F5 /* BackgroundSpeech */ = {
@@ -479,22 +454,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				36614C891F04D11200C7249D /* Shane Filan - Beautiful In White (Demo).mp3 in Resources */,
-				363406F31F00F70100D02790 /* hhj_udid.mobileconfig in Resources */,
 				363406811F00F6D800D02790 /* LaunchScreen.storyboard in Resources */,
-				363406F51F00F70100D02790 /* receive.html in Resources */,
 				3634067E1F00F6D800D02790 /* Assets.xcassets in Resources */,
-				363406F41F00F70100D02790 /* index.html in Resources */,
-				363406F21F00F70100D02790 /* forwardSuccess.html in Resources */,
 				363406D21F00F70100D02790 /* About.txt in Resources */,
-				363406EE1F00F70100D02790 /* app_login_status.html in Resources */,
-				363406F61F00F70100D02790 /* test.html in Resources */,
-				363406F01F00F70100D02790 /* apple-app-site-association in Resources */,
-				363406EF1F00F70100D02790 /* app_share.html in Resources */,
 				3634067C1F00F6D700D02790 /* Main.storyboard in Resources */,
 				363406DC1F00F70100D02790 /* README.txt in Resources */,
 				36614C881F04D11200C7249D /* Dizzy.mp3 in Resources */,
 				3686C6731F0228B300D074F5 /* LocalServer in Resources */,
-				363406F11F00F70100D02790 /* forward.html in Resources */,
 				363406D41F00F70100D02790 /* About.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -532,10 +498,12 @@
 				363406DF1F00F70100D02790 /* DDRange.m in Sources */,
 				363406E41F00F70100D02790 /* MultipartFormDataParser.m in Sources */,
 				363406E11F00F70100D02790 /* HTTPConnection.m in Sources */,
+				366B7B491F04E3D400B3FD7A /* HandleServerPath.m in Sources */,
 				363406E51F00F70100D02790 /* MultipartMessageHeader.m in Sources */,
 				363406E71F00F70100D02790 /* HTTPAsyncFileResponse.m in Sources */,
 				363406DE1F00F70100D02790 /* DDNumber.m in Sources */,
 				363406DD1F00F70100D02790 /* DDData.m in Sources */,
+				366B7B461F04DE3B00B3FD7A /* LocalServerConfig.m in Sources */,
 				363406731F00F6D700D02790 /* main.m in Sources */,
 				363406D51F00F70100D02790 /* DDAbstractDatabaseLogger.m in Sources */,
 				3686C6771F022B0C00D074F5 /* BackgroundSpeech.m in Sources */,

@@ -1,6 +1,8 @@
 #import "HTTPDataResponse.h"
 #import "HTTPLogging.h"
 
+#import "LocalServerConfig.h"
+
 #if ! __has_feature(objc_arc)
 #warning This file must be compiled with ARC. Use -fobjc-arc flag (or convert project to ARC).
 #endif
@@ -76,11 +78,7 @@ static const int httpLogLevel = HTTP_LOG_LEVEL_OFF; // | HTTP_LOG_FLAG_TRACE;
 	return result;
 }
 - (NSDictionary *)httpHeaders {
-    return @{
-             @"Access-Control-Allow-Origin":@"*",
-             @"Content-Type":@"application/json",
-             @"USER_AGENT":@"book.hanghuiju"
-             };
+    return [LocalServerConfig localServerResponseHeaders];
 }
 
 @end
