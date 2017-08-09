@@ -10,6 +10,7 @@
 
 /*
  * 音频播放
+ * 负责播放
  */
 @interface BackgroundSpeech : NSObject
 
@@ -21,5 +22,9 @@
 - (void)pause;
 - (void)continuePlay;
 - (void)stop;
+
+- (void)nextSong;
+- (void)previousSong;
+
 
 @end

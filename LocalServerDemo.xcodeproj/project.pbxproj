@@ -45,12 +45,13 @@
 		363407011F00F8CD00D02790 /* ServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 363407001F00F8CD00D02790 /* ServerConnection.m */; };
 		3634070A1F00FB5E00D02790 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 363407091F00FB5E00D02790 /* Config.m */; };
 		3634070D1F0106BC00D02790 /* HandleServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3634070C1F0106BC00D02790 /* HandleServerResponse.m */; };
-		36614C881F04D11200C7249D /* Dizzy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 36614C861F04D11200C7249D /* Dizzy.mp3 */; };
-		36614C891F04D11200C7249D /* Shane Filan - Beautiful In White (Demo).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 36614C871F04D11200C7249D /* Shane Filan - Beautiful In White (Demo).mp3 */; };
 		366B7B461F04DE3B00B3FD7A /* LocalServerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B7B451F04DE3B00B3FD7A /* LocalServerConfig.m */; };
 		366B7B491F04E3D400B3FD7A /* HandleServerPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B7B481F04E3D400B3FD7A /* HandleServerPath.m */; };
-		3686C6731F0228B300D074F5 /* LocalServer in Resources */ = {isa = PBXBuildFile; fileRef = 3686C6721F0228B300D074F5 /* LocalServer */; };
 		3686C6771F022B0C00D074F5 /* BackgroundSpeech.m in Sources */ = {isa = PBXBuildFile; fileRef = 3686C6761F022B0C00D074F5 /* BackgroundSpeech.m */; };
+		36885C121F0CD7E0000029BA /* LocalServer in Resources */ = {isa = PBXBuildFile; fileRef = 36885C111F0CD7E0000029BA /* LocalServer */; };
+		36885C1E1F0CE3EC000029BA /* SongsInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 36885C1D1F0CE3EC000029BA /* SongsInfo.json */; };
+		36885C211F0CE406000029BA /* MusicInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 36885C201F0CE406000029BA /* MusicInfo.m */; };
+		36885C231F0CE626000029BA /* 爱殇.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 36885C221F0CE626000029BA /* 爱殇.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -127,15 +128,17 @@
 		363407091F00FB5E00D02790 /* Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
 		3634070B1F0106BC00D02790 /* HandleServerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandleServerResponse.h; sourceTree = "<group>"; };
 		3634070C1F0106BC00D02790 /* HandleServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandleServerResponse.m; sourceTree = "<group>"; };
-		36614C861F04D11200C7249D /* Dizzy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dizzy.mp3; sourceTree = "<group>"; };
-		36614C871F04D11200C7249D /* Shane Filan - Beautiful In White (Demo).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shane Filan - Beautiful In White (Demo).mp3"; sourceTree = "<group>"; };
 		366B7B441F04DE3B00B3FD7A /* LocalServerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalServerConfig.h; sourceTree = "<group>"; };
 		366B7B451F04DE3B00B3FD7A /* LocalServerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalServerConfig.m; sourceTree = "<group>"; };
 		366B7B471F04E3D400B3FD7A /* HandleServerPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandleServerPath.h; sourceTree = "<group>"; };
 		366B7B481F04E3D400B3FD7A /* HandleServerPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandleServerPath.m; sourceTree = "<group>"; };
-		3686C6721F0228B300D074F5 /* LocalServer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LocalServer; sourceTree = "<group>"; };
 		3686C6751F022B0C00D074F5 /* BackgroundSpeech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundSpeech.h; sourceTree = "<group>"; };
 		3686C6761F022B0C00D074F5 /* BackgroundSpeech.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundSpeech.m; sourceTree = "<group>"; };
+		36885C111F0CD7E0000029BA /* LocalServer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LocalServer; sourceTree = "<group>"; };
+		36885C1D1F0CE3EC000029BA /* SongsInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SongsInfo.json; sourceTree = "<group>"; };
+		36885C1F1F0CE406000029BA /* MusicInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicInfo.h; sourceTree = "<group>"; };
+		36885C201F0CE406000029BA /* MusicInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicInfo.m; sourceTree = "<group>"; };
+		36885C221F0CE626000029BA /* 爱殇.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "爱殇.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -315,8 +318,8 @@
 		363406F71F00F84A00D02790 /* CreateLocalServer */ = {
 			isa = PBXGroup;
 			children = (
+				36885C101F0CD7D1000029BA /* Source */,
 				366B7B431F04DE2500B3FD7A /* ServerConfig */,
-				363407021F00F96B00D02790 /* Source */,
 				363406FA1F00F8B000D02790 /* ServerConnection */,
 				363406FB1F00F8B000D02790 /* StartServer */,
 			);
@@ -345,14 +348,6 @@
 			path = StartServer;
 			sourceTree = "<group>";
 		};
-		363407021F00F96B00D02790 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				3686C6721F0228B300D074F5 /* LocalServer */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
 		363407071F00FB5200D02790 /* Config */ = {
 			isa = PBXGroup;
 			children = (
@@ -365,8 +360,8 @@
 		36614C851F04D11200C7249D /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				36614C861F04D11200C7249D /* Dizzy.mp3 */,
-				36614C871F04D11200C7249D /* Shane Filan - Beautiful In White (Demo).mp3 */,
+				36885C1D1F0CE3EC000029BA /* SongsInfo.json */,
+				36885C221F0CE626000029BA /* 爱殇.mp3 */,
 			);
 			path = Music;
 			sourceTree = "<group>";
@@ -383,10 +378,20 @@
 		3686C6741F022AF900D074F5 /* BackgroundSpeech */ = {
 			isa = PBXGroup;
 			children = (
+				36885C1F1F0CE406000029BA /* MusicInfo.h */,
+				36885C201F0CE406000029BA /* MusicInfo.m */,
 				3686C6751F022B0C00D074F5 /* BackgroundSpeech.h */,
 				3686C6761F022B0C00D074F5 /* BackgroundSpeech.m */,
 			);
 			path = BackgroundSpeech;
+			sourceTree = "<group>";
+		};
+		36885C101F0CD7D1000029BA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				36885C111F0CD7E0000029BA /* LocalServer */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -453,14 +458,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36614C891F04D11200C7249D /* Shane Filan - Beautiful In White (Demo).mp3 in Resources */,
 				363406811F00F6D800D02790 /* LaunchScreen.storyboard in Resources */,
 				3634067E1F00F6D800D02790 /* Assets.xcassets in Resources */,
+				36885C121F0CD7E0000029BA /* LocalServer in Resources */,
+				36885C231F0CE626000029BA /* 爱殇.mp3 in Resources */,
+				36885C1E1F0CE3EC000029BA /* SongsInfo.json in Resources */,
 				363406D21F00F70100D02790 /* About.txt in Resources */,
 				3634067C1F00F6D700D02790 /* Main.storyboard in Resources */,
 				363406DC1F00F70100D02790 /* README.txt in Resources */,
-				36614C881F04D11200C7249D /* Dizzy.mp3 in Resources */,
-				3686C6731F0228B300D074F5 /* LocalServer in Resources */,
 				363406D41F00F70100D02790 /* About.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,6 +488,7 @@
 				363406E21F00F70100D02790 /* HTTPMessage.m in Sources */,
 				363406FE1F00F8BB00D02790 /* StartServer.m in Sources */,
 				363406EC1F00F70100D02790 /* HTTPRedirectResponse.m in Sources */,
+				36885C211F0CE406000029BA /* MusicInfo.m in Sources */,
 				363406D61F00F70100D02790 /* DDASLLogger.m in Sources */,
 				363406E91F00F70100D02790 /* HTTPDynamicFileResponse.m in Sources */,
 				363406DA1F00F70100D02790 /* ContextFilterLogFormatter.m in Sources */,
