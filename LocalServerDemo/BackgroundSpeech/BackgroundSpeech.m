@@ -39,6 +39,8 @@
         
         //默认索引值
         instance->currentIndexOfSong = 0;
+        
+        [instance settingBackground];
     });
     return instance;
 }
@@ -58,12 +60,13 @@
     }
     
     [_avAudioPlayer setNumberOfLoops:-1];
-    [_avAudioPlayer setVolume:0.1];
+    [_avAudioPlayer setVolume:0];
     [_avAudioPlayer prepareToPlay];
     [_avAudioPlayer play];
     _avAudioPlayer.delegate = self;
     
-    [self configNowPlayingInfoCenter];
+    
+   // [self configNowPlayingInfoCenter];
 }
 - (void)pause {
     [_avAudioPlayer pause];
@@ -157,7 +160,45 @@
     // 你可以帮用户开启 也可以什么都不执行，让用户自己决定
     [_avAudioPlayer play];
 }
-
+/**
+ *  响应远程音乐播放控制消息
+ *
+ */
+- (void)remoteControlReceivedWithEvent:(UIEvent *)event {
+    if (event.type == UIEventTypeRemoteControl) {
+        
+        switch (event.subtype) {
+                
+            case UIEventSubtypeRemoteControlPause:
+                //点击了暂停
+                [[BackgroundSpeech sharedBackgroundSpeech] pause];
+                break;
+            case UIEventSubtypeRemoteControlNextTrack:
+                //点击了下一首
+                [[BackgroundSpeech sharedBackgroundSpeech] nextSong];
+                break;
+            case UIEventSubtypeRemoteControlPreviousTrack:
+                //点击了上一首
+                [[BackgroundSpeech sharedBackgroundSpeech] previousSong];
+                //此时需要更改歌曲信息
+                break;
+            case UIEventSubtypeRemoteControlPlay:
+                //点击了播放
+                [[BackgroundSpeech sharedBackgroundSpeech] continuePlay];
+                break;
+            default:
+                break;
+        }
+    }
+}
+#pragma mark - 后台播放设置
+- (void)settingBackground {
+    //后台播放音频设置
+    AVAudioSession *session = [AVAudioSession sharedInstance];
+    [session setActive:YES error:nil];
+    //打开该应用不会影响其他APP的运行,其他APP的运行也不会影响该APP的进度。
+    [session setCategory:AVAudioSessionCategoryPlayback withOptions:AVAudioSessionCategoryOptionMixWithOthers error:nil];
+}
 #pragma mark - 获取当前音乐
 - (MusicInfo *)currentSongsInfo {
     return [[MusicInfo allSongsInfo] objectAtIndex:currentIndexOfSong];

@@ -9,7 +9,7 @@
 ///本地服务器保存地址,这个一定得是真实目录，蓝色文件夹。
 #define LOCAL_SERVER_PATH [[NSBundle mainBundle] pathForResource:@"LocalServer" ofType:nil]
 ///服务器端口
-#define LOCAL_SERVER_PORT 24680
+#define LOCAL_SERVER_PORT 24476
 
 #import "StartServer.h"
 
@@ -60,7 +60,7 @@
 - (void)startServer {
     NSError *error = nil;
     if ([_httpServer start:&error]) {
-        
+        NSLog(@"开启服务器");
     }else {
         NSLog(@"服务器开启失败");
     }
