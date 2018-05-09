@@ -7,11 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
 ///自定义文件
 #import "BackgroundSpeech.h"
-
-
 
 @interface AppDelegate ()
 

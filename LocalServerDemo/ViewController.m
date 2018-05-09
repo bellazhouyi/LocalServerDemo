@@ -11,6 +11,7 @@
 ///自定义文件
 #import "StartServer.h"
 #import "BackgroundSpeech.h"
+#import "LocalSocketServer.h"
 
 @interface ViewController ()
 
@@ -23,6 +24,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [[StartServer sharedStartServer] startServer];
+    //[[LocalSocketServer sharedServer] startServer];
     
     [[BackgroundSpeech sharedBackgroundSpeech] playAudio];
 }

@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 /*
- * 服务器的开启
+ * HTTP服务器
  */
 @interface StartServer : NSObject
 

@@ -47,6 +47,7 @@
 		3634070D1F0106BC00D02790 /* HandleServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3634070C1F0106BC00D02790 /* HandleServerResponse.m */; };
 		366B7B461F04DE3B00B3FD7A /* LocalServerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B7B451F04DE3B00B3FD7A /* LocalServerConfig.m */; };
 		366B7B491F04E3D400B3FD7A /* HandleServerPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 366B7B481F04E3D400B3FD7A /* HandleServerPath.m */; };
+		367153B72018664500BFFB74 /* LocalSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 367153B62018664500BFFB74 /* LocalSocketServer.m */; };
 		3686C6771F022B0C00D074F5 /* BackgroundSpeech.m in Sources */ = {isa = PBXBuildFile; fileRef = 3686C6761F022B0C00D074F5 /* BackgroundSpeech.m */; };
 		36885C121F0CD7E0000029BA /* LocalServer in Resources */ = {isa = PBXBuildFile; fileRef = 36885C111F0CD7E0000029BA /* LocalServer */; };
 		36885C1E1F0CE3EC000029BA /* SongsInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 36885C1D1F0CE3EC000029BA /* SongsInfo.json */; };
@@ -132,6 +133,8 @@
 		366B7B451F04DE3B00B3FD7A /* LocalServerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalServerConfig.m; sourceTree = "<group>"; };
 		366B7B471F04E3D400B3FD7A /* HandleServerPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandleServerPath.h; sourceTree = "<group>"; };
 		366B7B481F04E3D400B3FD7A /* HandleServerPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandleServerPath.m; sourceTree = "<group>"; };
+		367153B52018664500BFFB74 /* LocalSocketServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalSocketServer.h; sourceTree = "<group>"; };
+		367153B62018664500BFFB74 /* LocalSocketServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalSocketServer.m; sourceTree = "<group>"; };
 		3686C6751F022B0C00D074F5 /* BackgroundSpeech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundSpeech.h; sourceTree = "<group>"; };
 		3686C6761F022B0C00D074F5 /* BackgroundSpeech.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundSpeech.m; sourceTree = "<group>"; };
 		36885C111F0CD7E0000029BA /* LocalServer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LocalServer; sourceTree = "<group>"; };
@@ -318,6 +321,7 @@
 		363406F71F00F84A00D02790 /* CreateLocalServer */ = {
 			isa = PBXGroup;
 			children = (
+				367153B4201865F200BFFB74 /* socketServer */,
 				36885C101F0CD7D1000029BA /* Source */,
 				366B7B431F04DE2500B3FD7A /* ServerConfig */,
 				363406FA1F00F8B000D02790 /* ServerConnection */,
@@ -373,6 +377,15 @@
 				366B7B451F04DE3B00B3FD7A /* LocalServerConfig.m */,
 			);
 			path = ServerConfig;
+			sourceTree = "<group>";
+		};
+		367153B4201865F200BFFB74 /* socketServer */ = {
+			isa = PBXGroup;
+			children = (
+				367153B52018664500BFFB74 /* LocalSocketServer.h */,
+				367153B62018664500BFFB74 /* LocalSocketServer.m */,
+			);
+			path = socketServer;
 			sourceTree = "<group>";
 		};
 		3686C6741F022AF900D074F5 /* BackgroundSpeech */ = {
@@ -502,6 +515,7 @@
 				363406ED1F00F70100D02790 /* WebSocket.m in Sources */,
 				363406EA1F00F70100D02790 /* HTTPErrorResponse.m in Sources */,
 				363406DF1F00F70100D02790 /* DDRange.m in Sources */,
+				367153B72018664500BFFB74 /* LocalSocketServer.m in Sources */,
 				363406E41F00F70100D02790 /* MultipartFormDataParser.m in Sources */,
 				363406E11F00F70100D02790 /* HTTPConnection.m in Sources */,
 				366B7B491F04E3D400B3FD7A /* HandleServerPath.m in Sources */,
